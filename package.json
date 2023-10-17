@@ -1,0 +1,14 @@
+{
+  "name": "agi-tests",
+  "version": "1.0.0",
+  "description": "Projeto de testes de aceitação de ponta a ponta em Cypress",
+  "main": "index.js",
+  "author": "Ronaldo Valenga ",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0",
+    "cypress-xpath": "^2.0.1",
+    "pg": "^8.10.0"
+  }
+}
