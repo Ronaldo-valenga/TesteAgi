@@ -9,10 +9,6 @@ describe('Validação de Pesquisa', function () {
 
     context('quando a pesquisa é muito boa', function () {
 
-        const texto = {
-            texto1: 'Teste'
-        }
-
         it('Deve realzar a pesquisa com sucesso', function () {
             agiPage.go()
             agiPage.pesquisa()
@@ -27,10 +23,6 @@ describe('Validação de Pesquisa', function () {
     })
 
     context('quando a pesquisa é ruim', function () {
-
-        const texto = {
-            texto1: 'suahsua'
-        }
 
         it('Deve realzar a pesquisa mas não retorna nenhum resultado', function () {
             agiPage.go()
